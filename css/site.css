@@ -1,0 +1,344 @@
+.bg-light {
+    background-color: white !important;   
+}
+
+
+.navbar-brand {
+  height: auto;
+  width: auto; 
+  max-height: 72px;
+  max-width: 250px; 
+ 
+}
+
+
+
+#po {
+   overflow: hidden; 
+   z-index: 999;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+	border-bottom: 1px solid #17629b;
+	box-shadow: 0 20px 20px -20px #17629b;
+  height: auto;
+}
+
+ .pull-left  li   {
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+    color: #17629b;
+    vertical-align: middle;
+    
+  }  
+
+  .pull-left li a {
+    text-decoration: none;
+  }
+
+  .pull-left li a:hover {
+    color: #0f0;
+  }
+
+.pull-right  li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px; 
+    vertical-align: middle; 
+ } 
+
+.pull-left li img {
+  color: #17629b;
+}
+
+.cv {
+  background-color: rgb(23, 98, 155);
+
+}
+
+.navbar-light .navbar-toggler { 
+  border-color: #17629b;
+}
+
+.nav-link {
+  color: #17629b !important;
+  font-weight:500 ;
+}
+
+.nav-link:hover {
+  color: #0f0 !important;
+}
+
+.navbar {
+  align-content: center;
+  
+}
+
+ #products > h2 {
+   text-align: center;
+ }
+
+
+ .card-text {
+    color: #565656;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+ }
+
+
+ hr { 
+    border-top: 1px solid #17629b;
+    margin-top: 0rem;     
+}
+ 
+
+ .card-header {
+    background-color: #17629b;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 3px 3px #000000;
+    font-size: 25px;
+    font-family:  Sans-serif;
+    line-height: 1;
+ }
+
+
+ .card {
+   box-shadow: 0 5px 5px 0 black;
+ }
+
+
+ h2 {
+   padding: 30px 0px 50px 0px;
+   font-weight: bold;
+   color:#17629b;
+   text-shadow: 3px 3px 3px #000000;
+   text-align: center;
+ }
+
+ .design, .welding, .fabrication {
+    border: 1px solid #17629b;
+    border-radius: 0.25rem;
+ }
+
+ .welding > h4, .design > h4, .fabrication > h4 
+ {
+    text-align: center;
+    color: #17629b; 
+ }
+
+ .carousel-caption {
+   font-weight: bold;
+ }
+ 
+
+ .location ul , .emailus ul, .callus ul{
+   text-align: center;
+   list-style: none;
+   line-height: 30px;
+   font-weight: bold;
+   margin-left: 0% !important;
+   padding-inline-start: 0px; 
+ }
+
+ .location a:hover, .emailus a:hover, .callus a:hover {
+   color:#0f0;
+
+ }
+
+ .location img:hover, .emailus img:hover, .callus  img:hover {
+
+  border: 1px solid #0f0;
+  border-radius: 100%;
+  background-color: #0f0;
+  padding: 2px;;
+ }
+
+ .footersocialmedia img {
+  border-radius: 100%;
+  background-color: rgb(17, 148, 41);
+  
+  
+ }
+ .footersocialmedia img:hover {
+  background-color: #0f0;
+ }
+
+ #facebook  {
+  padding:23px;
+ }
+
+ #twitter  {
+  padding:23px;
+
+ }
+
+ #instagram {
+  padding:20px;
+
+ }
+ .location a, .emailus  a, .callus a {
+   color: #17629b;
+   text-decoration: none;
+}
+
+i {
+  color: white;
+  text-align: center;
+
+}
+
+.jumbotron {
+  background-color: #17629b;
+}
+
+.jumbotron h3 {
+  color: white;
+  text-align: center;
+}
+
+
+#home{
+   height:auto
+} 
+
+#carouselExampleCaptions {
+  margin-top: 40px;
+  box-shadow: 0 5px 5px 0 black;
+}
+
+#products{
+  padding-top: 80px ; 
+  height: auto;    
+}
+ 
+.jumbotron p {
+  text-align: center;
+}
+
+.aboutpara p {
+  color:white;
+  text-align: justify !important; 
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+#tabimages .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#tabimages img  {
+   height: 60%; 
+  width: 100%;
+  vertical-align: baseline !important;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+#imgdisplay .container{
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  color: white;
+  font-size: 25px;
+  background-color: #17629b;
+  padding-left: 5px;
+  padding-right: 5px;
+  opacity: 0.7;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: -14px;
+  right: 18px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+ 
+
+.footerruler {
+  border-top: 1px solid white;
+}
+
+ .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+   color: #0f0 !important;
+} 
+
+
+
+.socialmediaheader a {
+  
+  color: white;
+}
+
+.socialmediaheader a:hover {
+  color: #0f0;
+}
+.carousel-item {
+   height: 600px;  
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+h3 {
+   color: #17629b;
+}
+
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.miningproducts img {
+  height: 450px; /* Set the desired height for the card images */
+  object-fit: cover; /* Ensures the image covers the entire area */
+}
+
+
+#products h3 {
+
+  color: #17629b;
+  border: 1px solid #17629b;
+  width:fit-content;
+  border-radius: 50px;
+  padding:9px;
+  text-align: center;
+  box-shadow: 5px 10px;
+}
